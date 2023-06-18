@@ -1,0 +1,45 @@
+.container_content{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.lcs_inp{  
+    padding: .24rem;
+    border-bottom: 1px solid;
+    font-size: 17px;
+}
+
+.searchresultList{
+    position: absolute;
+}
+
+.search_inp_cont{
+    position: relative;
+    
+}
+
+    .searchResultList{
+        position: absolute;
+        z-index: 4;
+        overflow: hidden;
+        left: 0;
+        margin-top: 1rem;
+        width: 100%;
+        background-color:aliceblue;
+        max-height: 14rem;
+        overflow-y: scroll;
+    }        
+
+    .search_li{
+        cursor: pointer;
+        padding: 0.4rem .3rem;
+    }
+
+    .search_li:nth-child(even) {
+        background-color: rgb(216, 227, 227);
+    }
+
+    .search_li:hover{
+        background-color: rgb(193, 193, 193);
+    }

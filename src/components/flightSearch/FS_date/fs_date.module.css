@@ -1,0 +1,21 @@
+.container_content{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.lcs_inp{ 
+    padding: .24rem;
+    border-bottom: 1px solid;
+}
+
+.rcs_dateInpsConst{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.rcs_inp{
+    padding: .24rem;
+    font-size: .95rem;
+}

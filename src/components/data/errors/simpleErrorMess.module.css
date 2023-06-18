@@ -1,0 +1,40 @@
+.cont{
+    position: fixed;
+    backdrop-filter: blur(4px);
+    z-index: 9999;
+    top: 0;bottom: 0;left: 0;right: 0;margin: auto;
+    width: 42rem;
+    background-color: rgba(74, 203, 156, 0.829);
+    height: 17rem;
+    display: flex;
+    border-radius: 24px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.tit{
+    position: relative;
+    width: 100%;
+    color:Red;
+    font-size: 1.4rem;
+}
+
+.mess{
+    position: relative;
+    width: 100%;
+    font-style: 1.2rem;
+    padding: 0.24rem;
+    background-color: aliceblue;
+}
+
+.close{
+    background-color: rgb(41, 225, 81);
+    padding: 1rem 4rem;
+    font-style: 1.2rem;
+}
+
+.close:hover{
+    background-color: aliceblue;
+}

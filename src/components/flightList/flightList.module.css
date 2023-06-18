@@ -1,0 +1,111 @@
+.botar{
+    position: relative;
+    width: 20rem;
+    border-bottom: 1px solid;
+  }
+
+
+.main{
+    position: relative;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.content{
+    position: relative;
+    padding: .5rem ;
+    display: flex;
+    flex-direction: column;
+}
+.list{
+    gap: .8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .list_item{
+        position: relative;
+        cursor: pointer;
+        width: 60rem;
+        padding: .55rem 0;
+        display: flex;
+        justify-content: space-evenly;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+        background-image: linear-gradient(89.41deg, rgba(20, 143, 98, 0.25) 15.2%, rgba(104, 206, 168, 0.664) 94.53%);
+    }
+    
+    @media only screen and (max-width: 670px) {
+        .list_item{
+            width: 40rem;
+        }
+    }
+
+    @media only screen and (max-width: 580px) {
+        .list_item{
+            flex-direction: column;
+            justify-content: center;
+            gap: 1rem;
+            align-items: center;
+        }
+    }
+
+    .list_item:hover{
+        scale: .98;
+        box-shadow: 0px 0px 8px 2px rgba(20, 143, 98, 0.35);
+    }
+
+        .li_way_cont{
+            position: relative;
+            display: flex;
+            gap: 1rem;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+            .li_way_from_cont, .li_way_to_cont{
+                display: flex;
+                justify-content: space-between;
+            }
+                .li_w_dateCont{
+                    display: flex;
+                    gap:1rem;
+                    justify-content: space-between;
+                    align-items: end;
+                }
+                    .li_wf_date{
+                        font-size: .8rem;
+                    }
+                
+                
+.li_info_cont{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+    .li_info_top_cont, .li_info_bot_cont{
+        display: flex;
+        gap: 1rem;
+    }
+    .li_inf_i_cl{
+        display: flex;
+    }
+    .li_inf_sit_type{
+        font-size: 18px;
+    }
+        .li_inf_i{
+            gap: .4rem;
+            display: flex;
+            align-items: center;
+        }
+
+    .btn_allFlights{
+        font-size: 18px;
+    }
+
+    .btn_allFlights:hover{
+        opacity: .7;
+    }
+
+    

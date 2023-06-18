@@ -1,0 +1,35 @@
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.container{
+    height: 100%;
+    width: 60rem;
+}
+
+    .content{
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .bot_cont{
+        background-color: rgba(18, 159, 108, 0.30);
+        display: flex;
+        margin-top: 14px;
+        padding:.54rem .75rem;
+        gap: 2rem;
+        align-items: end;
+        justify-content: center;
+    }
+
+.btnMyReserve{
+        background-color: rgba(18, 159, 108, 0.30);
+        padding: .47rem 1rem;
+}
+
+.btnMyReserve:hover{
+    opacity: .7;
+}
